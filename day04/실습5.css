@@ -1,0 +1,33 @@
+/*확인용*/
+*{
+    background-color: pink;
+    text-align: center;
+}
+.title{
+    border: solid 2px white;
+    border-radius: 30px 30px 30px 30px;
+    width: 400px;
+    padding: 9px 9px ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50% ;
+}
+.text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    border: solid 2px #91cfdd;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #91cfdd;
+    width: 400px;
+    padding: 9px 9px ;
+    margin : 20px 20px 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}

@@ -1,0 +1,35 @@
+.container{
+    border: 1px gray solid;
+}
+.container2{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    margin-right: -10px;
+}
+.title{
+    font-weight: 1000;
+    padding: 10px 0px 10px 5px;
+}
+.title2{
+    font-weight: 700;
+    padding: 10px 0px 10px 5px;
+}
+.text{
+    font-weight: 350;
+    padding: 10px 0px 10px 5px;
+
+}
+.review{
+    font-weight: 400;
+    padding: 10px 0px 10px 5px;
+}
+.number{
+    font-weight: 400;
+    color: orange;
+}

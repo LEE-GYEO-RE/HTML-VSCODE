@@ -1,0 +1,82 @@
+/*=====공통 부문=====*/
+*{  margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+
+a{  text-decoration: none;
+    color: white;}
+
+li{ list-style-type: none;
+    border: 3px solid;
+    border-radius: 30px;  
+    border-color: #bba6e4;
+    margin: 20px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #bba6e4;}
+
+ul{ color: white;}
+
+/*===헤더 부문====*/
+#header{ 
+    display: flex;
+    align-items: center;
+    width: 1208px;
+    margin: 0 auto;
+    font-size: 27px;}
+.logo{
+    width: 189px;
+    border-right: 2px gray solid;
+}
+img{ 
+    padding: 10px 0px 0px 45px;
+    width: 120px;
+}
+
+.title{
+    font-size:bold ;
+    color: #475570;
+    margin: 0 auto;
+    font-weight: 500;}
+
+/*========왼쪽 사이드 바 부문====== */
+#main{
+    background-color: #d9d9d9;
+    display: flex;
+    width: 1208px;
+    margin: 0 auto;}
+
+.main-left{
+    
+    border-right: 2px gray solid;
+    padding: 0px 20px 0px 20px;}
+
+/*======본문 부문========*/
+.main-box{
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.main-head{
+    color: gray;
+    border: 1px solid white; 
+    border-radius: 50px;
+    background-color: #fcfdf8;
+    width: 950px; height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 30px 20px 30px 20px;
+    padding: 5px 0px 5px 0px;
+}
+
+.main-right{
+    border: 1px solid white;
+    width: 950px; height: 550px;
+    border-radius: 50px;
+    background-color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px 20px ;
+    padding: 25px 20px;
+}
